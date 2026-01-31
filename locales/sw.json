@@ -1,0 +1,199 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu",
+    "services": "Huduma",
+    "plans": "Mipango",
+    "contact": "Wasiliana",
+    "checkAvailability": "Angalia Upatikanaji"
+  },
+  "hero": {
+    "title": "Intaneti ya Kasi ya Juu kwa Nyumbani na Biashara Yako",
+    "subtitle": "Pata uzoefu wa intaneti ya fiber ya kasi ya juu na uptime ya 99.9%. Unganisha na mustakabali na Uhakika Group.",
+    "explorePlans": "Angalia Mipango",
+    "checkAvailability": "Angalia Upatikanaji"
+  },
+  "features": {
+    "title": "Kwa Nini Chagua Uhakika Group?",
+    "subtitle": "Suluhisho za intaneti za kuaminika, za kasi, na za bei nafuu",
+    "speed": {
+      "title": "Kasi ya Juu",
+      "description": "Furahia kasi za juu za intaneti ya fiber hadi 1Gbps kwa streaming, michezo, na kazi bila shida."
+    },
+    "reliability": {
+      "title": "Uptime ya 99.9%",
+      "description": "Muundo wetu wa mtandao unaaminika unaahakikisha uunganishaji wa kuaminika unapohitaji zaidi."
+    },
+    "coverage": {
+      "title": "Eneo Pana",
+      "description": "Tunapanua mtandao wetu wa fiber kufikia nyumba na biashara zaidi katika eneo."
+    },
+    "support": {
+      "title": "Msaada wa Masaa 24/7",
+      "description": "Timu yetu ya msaada inapatikana kila wakati kukusaidia na matatizo yoyote."
+    }
+  },
+  "packages": {
+    "title": "Mifuko ya Intaneti",
+    "subtitle": "Chagua mpango kamili kwa mahitaji yako",
+    "viewAll": "Angalia Mipango Yote"
+  },
+  "about": {
+    "title": "Kuhusu Uhakika Group",
+    "overview": {
+      "title": "Utambulisho wa Kampuni",
+      "content": "Uhakika Group ni kampuni ya TEHAMA na huduma za intaneti inayotoa suluhisho la mawasiliano ya kasi na ya kuaminika kwa makazi, biashara na taasisi. Tumehudumia wateja kwa miaka ___ na tunaendelea kupanua mtandao wetu katika mikoa mbalimbali."
+    },
+    "vision": {
+      "title": "Dira",
+      "content": "Kuwa mtandao wa mawasiliano unaoongoza Afrika Mashariki kwa kutoa huduma za intaneti za kisasa, salama na za uhakika."
+    },
+    "mission": {
+      "title": "Dhima",
+      "content": "Kuwapatia wateja wetu intaneti ya kasi, huduma bora, na suluhisho la mawasiliano linaloendana na mahitaji ya zama za kidijitali."
+    },
+    "values": {
+      "title": "Maadili ya Kampuni",
+      "reliability": "Uaminifu - Tunaahakikisha huduma thabiti na ya kuaminika",
+      "innovation": "Ubunifu - Tunakubali teknolojia ya kisasa",
+      "integrity": "Uadilifu - Tunaendesha kwa uwazi na uaminifu",
+      "quality": "Ubora wa Huduma - Ubora katika kila mwingiliano",
+      "accountability": "Uwajibikaji - Tunachukua jukumu kwa ahadi zetu",
+      "expertise": "Utaalamu wa Kitaalamu - Timu yenye ujuzi na uzoefu"
+    },
+    "whyChoose": {
+      "title": "Kwa Nini Uchague Uhakika Group?",
+      "points": [
+        "Intaneti ya kasi ya uhakika",
+        "Huduma ya wateja masaa 24",
+        "Bei rafiki",
+        "Teknolojia ya kisasa (fiber, wireless, n.k.)",
+        "Network engineers wenye uzoefu",
+        "Support ya haraka kwa maeneo yote tunayohudumia"
+      ]
+    },
+    "statistics": {
+      "title": "Takwimu",
+      "customers": "5,000+",
+      "customersLabel": "Wateja Wanaoendelea",
+      "satisfaction": "97%",
+      "satisfactionLabel": "Kuridhika kwa Mteja",
+      "regions": "12+",
+      "regionsLabel": "Mikoa Inayohudumiwa",
+      "technicians": "50+",
+      "techniciansLabel": "Wataalamu wa Mtandao"
+    },
+    "team": {
+      "title": "Timu Yetu",
+      "network": "Timu ya Mtandao",
+      "support": "Timu ya Msaada wa Wateja",
+      "installation": "Wataalamu wa Ufungaji",
+      "leadership": "Timu ya Uongozi"
+    },
+    "history": {
+      "title": "Historia ya Kampuni",
+      "content": "Iliundwa mwaka [MWAKA], Uhakika Group imekua kutoka kampuni ndogo hadi kuwa ISP kuu katika eneo. Safari yetu imejaa upanuzi wa kila wakati, ubunifu wa kiteknolojia, na kujitolea kwa kuridhika kwa mteja."
+    },
+    "licenses": {
+      "title": "Leseni na Vyeti",
+      "content": "Tuna leseni kamili kutoka ARCT (Burundi) na tuna vyeti vya usalama wa mtandao. Ushirika wetu na makampuni makubwa unaonyesha kujitolea kwetu kwa shughuli za biashara halali na za kitaalamu."
+    },
+    "ceoMessage": {
+      "title": "Maneno ya Mkurugenzi",
+      "content": "Uhakika Group, tumekubali kuunganisha jamii na kuwezesha biashara kupitia huduma za intaneti za kuaminika. Maono yetu ni kuwa mshirika wa kuaminika katika safari yako ya kidijitali, tukitoa suluhisho zinazokua na mahitaji yako."
+    }
+  },
+  "services": {
+    "title": "Huduma Zetu",
+    "subtitle": "Tunatoa huduma za intaneti za kasi, suluhisho za mawasiliano kwa biashara na makazi, pamoja na vifaa vya kisasa vya mtandao vinavyowezesha huduma bora na ya uhakika.",
+    "homeInternet": {
+      "title": "Intaneti ya Nyumbani",
+      "description": "Huduma ya intaneti ya kasi kwa matumizi ya nyumbani, kusoma, burudani, na kazi za mtandao. Inapatikana kwa teknolojia ya Fiber au Wireless kulingana na eneo."
+    },
+    "businessInternet": {
+      "title": "Intaneti kwa Biashara",
+      "description": "Suluhisho la intaneti ya uhakika kwa ofisi, kampuni, taasisi, na biashara zinazohitaji uptime ya juu na usimamizi maalumu."
+    },
+    "fiberInstallation": {
+      "title": "Ufungaji wa Fiber & Uunganishaji",
+      "description": "Ufungaji wa fiber-optic connections kwa ubora wa juu, speed ya kudumu, na latency ndogo. Tunafanya installation kwa makazi na kampuni."
+    },
+    "dedicatedInternet": {
+      "title": "Intaneti Maalum ya Kikampuni (DIA)",
+      "description": "Intaneti maalum kwa taasisi na kampuni kubwa zinazohitaji connection isiyogawanywa (dedicated bandwidth), SLA, na support ya dharura 24/7."
+    },
+    "networking": {
+      "title": "Mifumo ya Mtandao",
+      "description": "Ufungaji wa routers, switches, access points, CCTV connectivity, pamoja na network design ya ndani (LAN, WAN)."
+    },
+    "equipment": {
+      "title": "Uuzaji wa Vifaa",
+      "description": "Uuzaji wa vifaa vya intaneti kama WiFi routers, fiber routers, modems, access points, cables, na vifaa vya installation."
+    },
+    "ictSupport": {
+      "title": "Msaada wa ICT & Huduma za Usimamizi",
+      "description": "Huduma za usimamizi wa mifumo, troubleshooting, consultancy, maintenance, na technical support."
+    },
+    "coverageChecking": {
+      "title": "Upatikanaji wa Huduma",
+      "description": "Huduma ya kuwasaidia wateja kupima kama intaneti inapatikana katika eneo lao kupitia mfumo wa Check Availability."
+    }
+  },
+  "plans": {
+    "title": "Mipango na Bei za Intaneti",
+    "subtitle": "Chagua mpango kamili kwa mahitaji yako",
+    "monthly": "kwa mwezi",
+    "speed": "Kasi",
+    "data": "Data",
+    "features": "Vipengele",
+    "getStarted": "Anza",
+    "popular": "Maarufu Zaidi"
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Tuko hapa kukusaidia. Wasiliana nasi kupitia njia yoyote ya hizi.",
+    "form": {
+      "name": "Jina Kamili",
+      "email": "Anwani ya Barua Pepe",
+      "phone": "Nambari ya Simu",
+      "message": "Ujumbe",
+      "send": "Tuma Ujumbe",
+      "sending": "Inatumwa...",
+      "success": "Ujumbe umetumwa kwa mafanikio!",
+      "error": "Kutuma ujumbe kumeshindwa. Tafadhali jaribu tena."
+    },
+    "whatsapp": "Chat kwenye WhatsApp",
+    "address": "Anwani",
+    "phone": "Simu",
+    "email": "Barua Pepe"
+  },
+  "checkAvailability": {
+    "title": "Angalia Upatikanaji wa Huduma",
+    "subtitle": "Ingiza maelezo yako ili kuangalia ikiwa huduma zetu zinapatikana katika eneo lako kote Burundi",
+    "form": {
+      "name": "Jina Kamili",
+      "province": "Mkoa",
+      "commune": "Wilaya",
+      "address": "Anwani ya Barabara / Eneo",
+      "phone": "Nambari ya Simu",
+      "email": "Anwani ya Barua Pepe (Hiari)",
+      "submit": "Angalia Upatikanaji",
+      "submitting": "Inaangaliwa...",
+      "success": "Asante! Tutawasiliana nawe hivi karibuni kuhusu upatikanaji katika eneo lako.",
+      "error": "Kitu kimeshindwa. Tafadhali jaribu tena."
+    },
+    "coverage": {
+      "title": "Maeneo ya Huduma",
+      "description": "Tunatoa huduma katika mikoa yote ya Burundi. Chagua eneo lako ili kuangalia upatikanaji."
+    }
+  },
+  "footer": {
+    "description": "Kutoa uunganishaji wa intaneti wa kuaminika na wa kasi ya juu kwa nyumba na biashara.",
+    "quickLinks": "Viungo vya Haraka",
+    "services": "Huduma",
+    "contact": "Wasiliana",
+    "followUs": "Tufuate",
+    "rights": "Haki zote zimehifadhiwa."
+  }
+}
+

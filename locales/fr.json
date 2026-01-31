@@ -1,0 +1,199 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "plans": "Forfaits",
+    "contact": "Contact",
+    "checkAvailability": "Vérifier la disponibilité"
+  },
+  "hero": {
+    "title": "Internet Ultra-Rapide pour Votre Maison et Entreprise",
+    "subtitle": "Profitez d'une connexion fibre ultra-rapide avec 99,9% de disponibilité. Connectez-vous à l'avenir avec Uhakika Group.",
+    "explorePlans": "Voir les Forfaits",
+    "checkAvailability": "Vérifier la Disponibilité"
+  },
+  "features": {
+    "title": "Pourquoi Choisir Uhakika Group?",
+    "subtitle": "Solutions Internet fiables, rapides et abordables",
+    "speed": {
+      "title": "Vitesse Ultra-Rapide",
+      "description": "Profitez de vitesses Internet fibre ultra-rapides jusqu'à 1 Gbps pour le streaming, les jeux et le travail sans interruption."
+    },
+    "reliability": {
+      "title": "99,9% de Disponibilité",
+      "description": "Notre infrastructure réseau robuste garantit une connectivité fiable lorsque vous en avez le plus besoin."
+    },
+    "coverage": {
+      "title": "Couverture Étendue",
+      "description": "Étendons notre réseau fibre pour atteindre plus de foyers et d'entreprises dans la région."
+    },
+    "support": {
+      "title": "Support 24/7",
+      "description": "Notre équipe de support dédiée est disponible 24h/24 et 7j/7 pour vous aider avec tout problème."
+    }
+  },
+  "packages": {
+    "title": "Forfaits Internet",
+    "subtitle": "Choisissez le forfait parfait pour vos besoins",
+    "viewAll": "Voir Tous les Forfaits"
+  },
+  "about": {
+    "title": "À Propos d'Uhakika Group",
+    "overview": {
+      "title": "Aperçu de l'Entreprise",
+      "content": "Uhakika Group est une entreprise TEHAMA et de services Internet qui fournit des solutions de communication rapides et fiables pour les foyers, les entreprises et les institutions. Nous servons nos clients depuis ___ ans et continuons d'étendre notre réseau dans diverses régions."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "content": "Être le réseau de communication leader en Afrique de l'Est en fournissant des services Internet modernes, sécurisés et fiables."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "content": "Fournir à nos clients un Internet rapide, un excellent service et des solutions de communication qui répondent aux besoins de l'ère numérique."
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "reliability": "Fiabilité - Nous assurons un service cohérent et fiable",
+      "innovation": "Innovation - Nous adoptons les technologies de pointe",
+      "integrity": "Intégrité - Nous opérons avec transparence et honnêteté",
+      "quality": "Qualité de Service - Excellence dans chaque interaction",
+      "accountability": "Responsabilité - Nous assumons nos engagements",
+      "expertise": "Expertise Professionnelle - Équipe compétente et expérimentée"
+    },
+    "whyChoose": {
+      "title": "Pourquoi Choisir Uhakika Group?",
+      "points": [
+        "Internet haute vitesse fiable",
+        "Service client 24/7",
+        "Tarifs abordables",
+        "Technologie moderne (fibre, sans fil, etc.)",
+        "Ingénieurs réseau expérimentés",
+        "Support rapide dans toutes les zones que nous desservons"
+      ]
+    },
+    "statistics": {
+      "title": "Statistiques de l'Entreprise",
+      "customers": "5,000+",
+      "customersLabel": "Clients Actifs",
+      "satisfaction": "97%",
+      "satisfactionLabel": "Satisfaction Client",
+      "regions": "12+",
+      "regionsLabel": "Régions Desservies",
+      "technicians": "50+",
+      "techniciansLabel": "Techniciens Réseau"
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "network": "Équipe Réseau",
+      "support": "Équipe Support Client",
+      "installation": "Techniciens d'Installation",
+      "leadership": "Équipe de Direction"
+    },
+    "history": {
+      "title": "Histoire de l'Entreprise",
+      "content": "Fondée en [ANNÉE], Uhakika Group est passée d'une petite startup à un FAI leader dans la région. Notre parcours a été marqué par une expansion continue, l'innovation technologique et un engagement inébranlable envers la satisfaction client."
+    },
+    "licenses": {
+      "title": "Licences et Certifications",
+      "content": "Nous sommes entièrement licenciés par ARCT (Burundi) et détenons des certifications de sécurité réseau. Nos partenariats avec les grandes entreprises démontrent notre engagement envers des opérations commerciales légitimes et professionnelles."
+    },
+    "ceoMessage": {
+      "title": "Message du PDG",
+      "content": "Chez Uhakika Group, nous nous engageons à connecter les communautés et à autonomiser les entreprises grâce à des services Internet fiables. Notre vision est d'être le partenaire de confiance dans votre parcours numérique, en fournissant des solutions qui évoluent avec vos besoins."
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Nous fournissons des services Internet rapides, des solutions de communication pour les entreprises et les foyers, ainsi que des équipements réseau modernes qui permettent des services excellents et fiables.",
+    "homeInternet": {
+      "title": "Internet Résidentiel",
+      "description": "Service Internet haute vitesse pour usage domestique, études, divertissement et travail en ligne. Disponible via technologie Fibre ou Sans fil selon la zone."
+    },
+    "businessInternet": {
+      "title": "Internet Professionnel",
+      "description": "Solutions Internet fiables pour bureaux, entreprises, institutions et entreprises nécessitant une disponibilité élevée et une gestion spécialisée."
+    },
+    "fiberInstallation": {
+      "title": "Installation Fibre & Connectivité",
+      "description": "Installation de connexions fibre optique de haute qualité avec vitesse constante et faible latence. Nous effectuons des installations pour foyers et entreprises."
+    },
+    "dedicatedInternet": {
+      "title": "Internet Dédié Entreprise (DIA)",
+      "description": "Internet dédié pour institutions et grandes entreprises nécessitant des connexions non partagées (bande passante dédiée), SLA et support d'urgence 24/7."
+    },
+    "networking": {
+      "title": "Solutions Réseau",
+      "description": "Installation de routeurs, commutateurs, points d'accès, connectivité CCTV, ainsi que conception de réseau interne (LAN, WAN)."
+    },
+    "equipment": {
+      "title": "Vente d'Équipements",
+      "description": "Vente d'équipements Internet tels que routeurs WiFi, routeurs fibre, modems, points d'accès, câbles et équipements d'installation."
+    },
+    "ictSupport": {
+      "title": "Support ICT & Services Gérés",
+      "description": "Services de gestion de systèmes, dépannage, conseil, maintenance et support technique."
+    },
+    "coverageChecking": {
+      "title": "Vérification de Couverture",
+      "description": "Service pour aider les clients à vérifier si Internet est disponible dans leur zone via notre système de Vérification de Disponibilité."
+    }
+  },
+  "plans": {
+    "title": "Forfaits et Tarifs Internet",
+    "subtitle": "Sélectionnez le forfait parfait pour vos besoins",
+    "monthly": "par mois",
+    "speed": "Vitesse",
+    "data": "Données",
+    "features": "Caractéristiques",
+    "getStarted": "Commencer",
+    "popular": "Le Plus Populaire"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour vous aider. Contactez-nous via l'un de ces canaux.",
+    "form": {
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "phone": "Numéro de Téléphone",
+      "message": "Message",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès!",
+      "error": "Échec de l'envoi du message. Veuillez réessayer."
+    },
+    "whatsapp": "Chat sur WhatsApp",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email"
+  },
+  "checkAvailability": {
+    "title": "Vérifier la Disponibilité du Service",
+    "subtitle": "Entrez vos coordonnées pour vérifier si nos services sont disponibles dans votre région dans tout le Burundi",
+    "form": {
+      "name": "Nom Complet",
+      "province": "Province",
+      "commune": "Commune",
+      "address": "Adresse / Zone",
+      "phone": "Numéro de Téléphone",
+      "email": "Adresse Email (Optionnel)",
+      "submit": "Vérifier la Disponibilité",
+      "submitting": "Vérification...",
+      "success": "Merci! Nous vous contacterons bientôt concernant la disponibilité dans votre région.",
+      "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+    },
+    "coverage": {
+      "title": "Zones de Couverture",
+      "description": "Nous fournissons des services dans toutes les provinces du Burundi. Sélectionnez votre localisation pour vérifier la disponibilité."
+    }
+  },
+  "footer": {
+    "description": "Fournissant une connectivité Internet fiable et haute vitesse pour les foyers et les entreprises.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Suivez-Nous",
+    "rights": "Tous droits réservés."
+  }
+}
+
