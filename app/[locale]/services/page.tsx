@@ -69,7 +69,7 @@ export default async function ServicesPage({ params: { locale } }: { params: { l
           </AnimatedParagraph>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <AnimatedLink
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${locale}/plans`}
+              href={`/${locale}/plans`}
               delay={0.2}
               className="inline-block px-8 py-4 bg-gradient-to-r from-primary-purple to-primary-blue text-white rounded-2xl font-semibold text-lg hover:opacity-90 transition-opacity"
             >

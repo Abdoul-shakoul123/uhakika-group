@@ -12,14 +12,31 @@ const languageNames: Record<string, string> = {
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
+/** Strip basePath from path so we never pass it to router.push (Next adds it once). */
+function stripBasePath(path: string): string {
+  if (!basePath) return path;
+  const segment = basePath.replace(/^\//, ''); // "uhakika-group"
+  const re = new RegExp(`^/?${segment}/?`);
+  let out = path.replace(re, '') || '/';
+  if (!out.startsWith('/')) out = `/${out}`;
+  return out;
+}
+
 export default function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
 
   const switchLocale = (newLocale: string) => {
-    const pathWithoutBase = basePath && pathname.startsWith(basePath) ? pathname.slice(basePath.length) || '/' : pathname;
-    const newPath = pathWithoutBase.replace(`/${locale}`, `/${newLocale}`);
+    const pathWithoutBase = stripBasePath(pathname);
+    let newPath = stripBasePath(pathWithoutBase.replace(`/${locale}`, `/${newLocale}`));
+    // With basePath (e.g. GitHub Pages), navigate by full URL so we never get double basePath
+    if (typeof window !== 'undefined' && basePath) {
+      // GitHub Pages has sw.html, en.html; subroutes are e.g. sw/plans.html
+      const path = newPath === '/' || newPath === `/${newLocale}` ? `${newLocale}.html` : newPath.replace(/^\//, '');
+      window.location.href = `${window.location.origin}${basePath}/${path}`;
+      return;
+    }
     router.push(newPath);
   };
 

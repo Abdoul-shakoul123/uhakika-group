@@ -71,7 +71,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
               {tPackages('subtitle')}
             </AnimatedParagraph>
             <AnimatedLink
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${locale}/plans`}
+              href={`/${locale}/plans`}
               delay={0.2}
               className="inline-block px-8 py-4 bg-gradient-to-r from-primary-purple to-primary-blue text-white rounded-2xl font-semibold text-lg hover:opacity-90 transition-opacity"
             >
@@ -91,7 +91,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
             Check if our services are available in your area today!
           </AnimatedParagraph>
           <AnimatedLink
-            href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${locale}/check`}
+            href={`/${locale}/check`}
             delay={0.2}
             className="inline-block px-8 py-4 bg-white text-primary-purple rounded-2xl font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg"
           >
