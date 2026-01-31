@@ -10,9 +10,15 @@ export const viewport: Viewport = {
   viewportFit: "cover",
 };
 
+const baseUrl = process.env.NEXT_PUBLIC_BASE_PATH
+  ? "https://abdoul-shakoul123.github.io" + process.env.NEXT_PUBLIC_BASE_PATH
+  : undefined;
+
 export const metadata: Metadata = {
   title: "Uhakika Group - High-Speed Internet Services",
   description: "Reliable, fast, and affordable internet solutions for homes and businesses",
+  metadataBase: baseUrl ? new URL(baseUrl) : undefined,
+  openGraph: baseUrl ? { url: baseUrl } : undefined,
 };
 
 export default function RootLayout({

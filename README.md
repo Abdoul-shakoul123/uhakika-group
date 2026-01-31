@@ -2,10 +2,11 @@
 
 A modern, professional, multilingual website for Uhakika Group, an Internet Service Provider (ISP) company.
 
-## Live site (link inayofanya kazi)
+## Link rasmi (tumia hii tu)
 
-**404 kwenye .../en/plans?** Fungua link hii (copy-paste kwenye address bar):  
 **https://abdoul-shakoul123.github.io/uhakika-group/**
+
+Copy link hii, bookmark, au share — ndiyo peke yake inayofanya kazi. Usitumie uhakikagroup.com hadi utakaposajili domain na kuset DNS.
 
 ## Features
 

@@ -1,12 +1,10 @@
 # Deploy – wewe accept tu
 
-## Link ya tovuti (inayofanya kazi)
-
-**404 kwenye .../en/plans?** Copy-paste link hii kwenye address bar (si .../en/plans):
+## Link rasmi (tumia hii tu)
 
 **https://abdoul-shakoul123.github.io/uhakika-group/**
 
-Bookmark link hii; usibookmark .../en/plans peke yake.  
+Link peke yake inayofanya kazi. Copy, bookmark, share — tumia hii tu.  
 Repo → About (gear) → Website: weka link hii ili "Visit site" ifungue sahihi.
 
 ---
