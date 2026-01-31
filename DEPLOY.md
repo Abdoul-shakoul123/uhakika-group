@@ -36,9 +36,9 @@ GitHub haikubali password ya account kwa git. Tumia **Personal Access Token (PAT
 
 ---
 
-## Custom domain (https://www.uhakikagroup.com)
+## Custom domain (https://www.uhakikagroup.com) — **optional, siku tukipata pesa**
 
-Tovuti iko tayari kwa custom domain. Unachofanya ni kwenye **GitHub** na **DNS** ya domain.
+Tovuti inafanya kazi kwenye **https://abdoul-shakoul123.github.io/uhakika-group/** bila domain. Custom domain ni chaguo: siku utakaponunua domain (uhakikagroup.com), fuata hatua hapa chini. Kwa sasa unaweza kuacha hii.
 
 ### 1. GitHub Pages
 
