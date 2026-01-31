@@ -9,8 +9,9 @@ export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
   
-  // Video background
-  const videoSrc = '/videos/4k.jpg.mp4'; // Your video file
+  // Video background (use basePath for GitHub Pages)
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const videoSrc = `${basePath}/videos/4k.jpg.mp4`;
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
