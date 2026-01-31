@@ -10,13 +10,16 @@ const languageNames: Record<string, string> = {
   fr: 'FR',
 };
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
 
   const switchLocale = (newLocale: string) => {
-    const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
+    const pathWithoutBase = basePath && pathname.startsWith(basePath) ? pathname.slice(basePath.length) || '/' : pathname;
+    const newPath = pathWithoutBase.replace(`/${locale}`, `/${newLocale}`);
     router.push(newPath);
   };
 
