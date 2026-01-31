@@ -2,6 +2,10 @@
 
 A modern, professional, multilingual website for Uhakika Group, an Internet Service Provider (ISP) company.
 
+## Live site (link inayofanya kazi)
+
+**https://abdoul-shakoul123.github.io/uhakika-group/**
+
 ## Features
 
 - 🌍 **Multilingual Support**: English, Kiswahili, and French

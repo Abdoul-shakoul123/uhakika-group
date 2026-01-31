@@ -1,5 +1,11 @@
 # Deploy – wewe accept tu
 
+## Link ya tovuti (inayofanya kazi)
+
+**https://abdoul-shakoul123.github.io/uhakika-group/** — tumia hii; www.uhakikagroup.com haijasajiliwa bado.
+
+---
+
 ## Njia rahisi (GitHub inafanya kazi, wewe kubali tu)
 
 1. **Push mradi kwenye GitHub**  
