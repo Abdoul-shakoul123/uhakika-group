@@ -76,7 +76,7 @@ export default async function ServicesPage({ params: { locale } }: { params: { l
               Explore Plans
             </AnimatedLink>
             <Link
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${locale}/contact`}
+              href={`/${locale}/contact`}
               className="inline-block px-8 py-4 glass text-gray-900 rounded-2xl font-semibold text-lg hover:bg-white/30 transition-colors"
             >
               Contact Us

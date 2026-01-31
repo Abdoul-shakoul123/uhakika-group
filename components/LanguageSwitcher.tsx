@@ -15,10 +15,9 @@ export default function LanguageSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
 
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const switchLocale = (newLocale: string) => {
     const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
-    router.push(`${basePath}${newPath}`);
+    router.push(newPath);
   };
 
   return (

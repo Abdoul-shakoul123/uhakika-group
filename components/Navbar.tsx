@@ -7,8 +7,6 @@ import { useState } from 'react';
 import LanguageSwitcher from './LanguageSwitcher';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 export default function Navbar() {
   const t = useTranslations('nav');
   const locale = useLocale();
@@ -16,20 +14,18 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { href: `${basePath}/${locale}`, label: t('home') },
-    { href: `${basePath}/${locale}/about`, label: t('about') },
-    { href: `${basePath}/${locale}/services`, label: t('services') },
-    { href: `${basePath}/${locale}/plans`, label: t('plans') },
-    { href: `${basePath}/${locale}/contact`, label: t('contact') },
+    { href: `/${locale}`, label: t('home') },
+    { href: `/${locale}/about`, label: t('about') },
+    { href: `/${locale}/services`, label: t('services') },
+    { href: `/${locale}/plans`, label: t('plans') },
+    { href: `/${locale}/contact`, label: t('contact') },
   ];
 
-  const pathForActive = (href: string) => basePath ? href.slice(basePath.length) || '/' : href;
   const isActive = (href: string) => {
-    const p = pathForActive(href);
-    if (p === `/${locale}` || p === `/${locale}/`) {
+    if (href === `/${locale}` || href === `/${locale}/`) {
       return pathname === `/${locale}` || pathname === `/${locale}/`;
     }
-    return pathname.startsWith(p);
+    return pathname.startsWith(href);
   };
 
   return (
@@ -37,7 +33,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href={`${basePath}/${locale}`} className="flex items-center">
+          <Link href={`/${locale}`} className="flex items-center">
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold text-white"
@@ -62,7 +58,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href={`${basePath}/${locale}/check`}
+              href={`/${locale}/check`}
               className="px-4 py-2 bg-gradient-to-r from-primary-purple to-primary-blue text-white rounded-lg font-medium hover:opacity-90 transition-opacity"
             >
               {t('checkAvailability')}
@@ -123,7 +119,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link
-                href={`${basePath}/${locale}/check`}
+                href={`/${locale}/check`}
                 onClick={() => setIsOpen(false)}
                 className="block px-4 py-2 bg-gradient-to-r from-primary-purple to-primary-blue text-white rounded-lg font-medium text-center"
               >

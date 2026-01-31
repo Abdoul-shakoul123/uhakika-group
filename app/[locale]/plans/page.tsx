@@ -97,13 +97,13 @@ export default async function PlansPage({ params: { locale } }: { params: { loca
           </AnimatedParagraph>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${locale}/contact`}
+              href={`/${locale}/contact`}
               className="inline-block px-8 py-4 bg-gradient-to-r from-primary-purple to-primary-blue text-white rounded-2xl font-semibold text-lg hover:opacity-90 transition-opacity"
             >
               Contact Us
             </Link>
             <Link
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${locale}/check`}
+              href={`/${locale}/check`}
               className="inline-block px-8 py-4 glass text-gray-900 rounded-2xl font-semibold text-lg hover:bg-white/30 transition-colors"
             >
               Check Availability

@@ -3,8 +3,6 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
@@ -24,22 +22,22 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">{t('quickLinks')}</h4>
             <ul className="space-y-2">
               <li>
-                <Link href={`${basePath}/${locale}`} className="hover:text-white transition-colors">
+                <Link href={`/${locale}`} className="hover:text-white transition-colors">
                   {t('services')}
                 </Link>
               </li>
               <li>
-                <Link href={`${basePath}/${locale}/about`} className="hover:text-white transition-colors">
+                <Link href={`/${locale}/about`} className="hover:text-white transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link href={`${basePath}/${locale}/plans`} className="hover:text-white transition-colors">
+                <Link href={`/${locale}/plans`} className="hover:text-white transition-colors">
                   Plans
                 </Link>
               </li>
               <li>
-                <Link href={`${basePath}/${locale}/contact`} className="hover:text-white transition-colors">
+                <Link href={`/${locale}/contact`} className="hover:text-white transition-colors">
                   {t('contact')}
                 </Link>
               </li>

@@ -104,13 +104,13 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Link
-              href={`${basePath}/${locale}/plans`}
+              href={`/${locale}/plans`}
               className="px-8 py-4 bg-white text-primary-purple rounded-2xl font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               {t('explorePlans')}
             </Link>
             <Link
-              href={`${basePath}/${locale}/check`}
+              href={`/${locale}/check`}
               className="px-8 py-4 glass text-white rounded-2xl font-semibold text-lg hover:bg-white/20 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               {t('checkAvailability')}
