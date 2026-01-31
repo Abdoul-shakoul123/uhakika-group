@@ -20,13 +20,17 @@ export default function Hero() {
         loop
         muted
         playsInline
+        preload="metadata"
+        disablePictureInPicture
         className="fixed top-0 left-0 w-screen h-screen object-cover z-0"
         style={{ 
           minWidth: '100vw', 
           minHeight: '100vh',
           width: '100%',
-          height: '100%'
-        }}
+          height: '100%',
+          objectFit: 'cover',
+          WebkitObjectFit: 'cover',
+        } as React.CSSProperties}
       >
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
