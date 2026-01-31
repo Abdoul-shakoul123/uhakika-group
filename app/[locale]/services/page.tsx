@@ -69,14 +69,14 @@ export default async function ServicesPage({ params: { locale } }: { params: { l
           </AnimatedParagraph>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <AnimatedLink
-              href={`/${locale}/plans`}
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${locale}/plans`}
               delay={0.2}
               className="inline-block px-8 py-4 bg-gradient-to-r from-primary-purple to-primary-blue text-white rounded-2xl font-semibold text-lg hover:opacity-90 transition-opacity"
             >
               Explore Plans
             </AnimatedLink>
             <Link
-              href={`/${locale}/contact`}
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${locale}/contact`}
               className="inline-block px-8 py-4 glass text-gray-900 rounded-2xl font-semibold text-lg hover:bg-white/30 transition-colors"
             >
               Contact Us

@@ -9,7 +9,6 @@ export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
   
-  // Video background (use basePath for GitHub Pages)
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const videoSrc = `${basePath}/videos/4k.jpg.mp4`;
 
@@ -101,13 +100,13 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Link
-              href={`/${locale}/plans`}
+              href={`${basePath}/${locale}/plans`}
               className="px-8 py-4 bg-white text-primary-purple rounded-2xl font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               {t('explorePlans')}
             </Link>
             <Link
-              href={`/${locale}/check`}
+              href={`${basePath}/${locale}/check`}
               className="px-8 py-4 glass text-white rounded-2xl font-semibold text-lg hover:bg-white/20 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               {t('checkAvailability')}
