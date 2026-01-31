@@ -36,15 +36,13 @@ jobs:
 
       - name: Prepare Pages artifact
         run: |
-          if [ -d "out/${{ github.event.repository.name }}" ]; then
-            cp -r out/${{ github.event.repository.name }} deploy-out
-          else
-            cp -r out deploy-out
-          fi
+          cp -r out deploy-out
           REPO_NAME="${{ github.event.repository.name }}"
-          if [ ! -f "deploy-out/index.html" ]; then
-            echo '<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/'$REPO_NAME'/en/"><link rel="canonical" href="/'$REPO_NAME'/en/"></head><body>Redirecting to <a href="/'$REPO_NAME'/en/">site</a>...</body></html>' > deploy-out/index.html
-          fi
+          echo '<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/'$REPO_NAME'/en.html"><link rel="canonical" href="/'$REPO_NAME'/en.html"></head><body>Redirecting to <a href="/'$REPO_NAME'/en.html">site</a>...</body></html>' > deploy-out/index.html
+          for loc in en sw fr; do
+            mkdir -p deploy-out/$loc
+            [ ! -f "deploy-out/$loc/index.html" ] && echo '<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=../'$loc'.html"></head><body>Redirecting...</body></html>' > deploy-out/$loc/index.html
+          done
           ls -la deploy-out/
 
       - name: Upload artifact
