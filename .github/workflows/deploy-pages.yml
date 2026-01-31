@@ -32,13 +32,12 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          NEXT_PUBLIC_BASE_PATH: ''
 
       - name: Prepare Pages artifact
         run: |
           cp -r out deploy-out
-          REPO_NAME="${{ github.event.repository.name }}"
-          echo '<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/'$REPO_NAME'/en.html"><link rel="canonical" href="/'$REPO_NAME'/en.html"></head><body>Redirecting to <a href="/'$REPO_NAME'/en.html">site</a>...</body></html>' > deploy-out/index.html
+          echo '<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=en.html"><link rel="canonical" href="/en.html"></head><body>Redirecting to <a href="en.html">Uhakika Group</a>...</body></html>' > deploy-out/index.html
           for loc in en sw fr; do
             mkdir -p deploy-out/$loc
             [ ! -f "deploy-out/$loc/index.html" ] && echo '<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=../'$loc'.html"></head><body>Redirecting...</body></html>' > deploy-out/$loc/index.html
