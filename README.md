@@ -1,12 +1,10 @@
 # Uhakika Group - Multilingual ISP Website
 
-A modern, professional, multilingual website for Uhakika Group, an Internet Service Provider (ISP) company.
-
-## Link rasmi (tumia hii tu)
+## Link rasmi (inafunguka)
 
 **https://abdoul-shakoul123.github.io/uhakika-group/**
 
-Copy link hii, bookmark, au share — ndiyo peke yake inayofanya kazi. Usitumie uhakikagroup.com hadi utakaposajili domain na kuset DNS.
+Hatuna domain bado; tumia link hii tu — copy, bookmark, share.
 
 ## Features
 

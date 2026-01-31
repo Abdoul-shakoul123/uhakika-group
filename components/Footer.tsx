@@ -48,6 +48,12 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">{t('contact')}</h4>
             <ul className="space-y-2 text-gray-400">
+              <li>
+                Website:{' '}
+                <a href="https://abdoul-shakoul123.github.io/uhakika-group/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors underline">
+                  github.io/uhakika-group
+                </a>
+              </li>
               <li>Email: info@uhakika.group</li>
               <li>Phone: +257 65 056 330</li>
               <li>+257 61 163 280</li>

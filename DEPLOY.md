@@ -1,11 +1,10 @@
 # Deploy – wewe accept tu
 
-## Link rasmi (tumia hii tu)
+## Link rasmi (hatuna domain – tumia hii tu)
 
 **https://abdoul-shakoul123.github.io/uhakika-group/**
 
-Link peke yake inayofanya kazi. Copy, bookmark, share — tumia hii tu.  
-Repo → About (gear) → Website: weka link hii ili "Visit site" ifungue sahihi.
+Copy, bookmark, share. Repo → About (gear) → Website: weka link hii ili "Visit site" ifungue sahihi.
 
 ---
 
