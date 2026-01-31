@@ -4,7 +4,7 @@ A modern, professional, multilingual website for Uhakika Group, an Internet Serv
 
 ## Live site (link inayofanya kazi)
 
-**Fungua HII tu (si /en/plans peke yake — itatoa 404):**  
+**404 kwenye .../en/plans?** Fungua link hii (copy-paste kwenye address bar):  
 **https://abdoul-shakoul123.github.io/uhakika-group/**
 
 ## Features

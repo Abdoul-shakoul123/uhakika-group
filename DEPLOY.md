@@ -2,8 +2,11 @@
 
 ## Link ya tovuti (inayofanya kazi)
 
-**https://abdoul-shakoul123.github.io/uhakika-group/** — tumia hii tu.  
-**Usitumie** ...github.io/en/plans (itatoa 404); lazima iwe .../uhakika-group/en/plans.  
+**404 kwenye .../en/plans?** Copy-paste link hii kwenye address bar (si .../en/plans):
+
+**https://abdoul-shakoul123.github.io/uhakika-group/**
+
+Bookmark link hii; usibookmark .../en/plans peke yake.  
 Repo → About (gear) → Website: weka link hii ili "Visit site" ifungue sahihi.
 
 ---
