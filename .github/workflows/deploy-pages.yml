@@ -34,10 +34,19 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
+      - name: Prepare Pages artifact
+        run: |
+          if [ -d "out/${{ github.event.repository.name }}" ]; then
+            cp -r out/${{ github.event.repository.name }} deploy-out
+          else
+            cp -r out deploy-out
+          fi
+          ls -la deploy-out/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: out/${{ github.event.repository.name }}
+          path: deploy-out
 
   deploy:
     needs: build
