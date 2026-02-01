@@ -1,7 +1,9 @@
-LINK RASMI (hatuna domain – tumia hii tu)
+USIWEKE www.uhakikagroup.com — haifungi. Tumia link hapa chini tu.
+
+LINK RASMI (inafunguka)
 https://abdoul-shakoul123.github.io/uhakika-group/
 
-Fungua tovuti bila kuandika: double-click OPEN-SITE.url (au OPEN-SITE.html) kwenye folder ya mradi.
+Fungua bila kuandika: double-click OPEN-SITE.url (au OPEN-SITE.html) kwenye folder ya mradi.
 
 Repo: https://github.com/Abdoul-shakoul123/uhakika-group
 Actions: https://github.com/Abdoul-shakoul123/uhakika-group/actions

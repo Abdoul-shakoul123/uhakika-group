@@ -4,7 +4,7 @@
 
 **https://abdoul-shakoul123.github.io/uhakika-group/**
 
-Hatuna domain bado; tumia link hii tu. **Fungua bila kuandika:** double-click `OPEN-SITE.url` au `OPEN-SITE.html` kwenye folder ya mradi.
+**Usiweke www.uhakikagroup.com** — haifungi. Tumia link hapa juu tu. **Fungua bila kuandika:** double-click `OPEN-SITE.url` au `OPEN-SITE.html` kwenye folder ya mradi.
 
 ## Features
 
