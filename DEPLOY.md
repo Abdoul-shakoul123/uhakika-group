@@ -1,7 +1,5 @@
 # Deploy – wewe accept tu
 
-**Usiweke www.uhakikagroup.com kwenye browser** — haifanyi kazi (domain haipo). **Tumia link hii tu:**
-
 ## Link rasmi (inafunguka)
 
 **https://abdoul-shakoul123.github.io/uhakika-group/**
@@ -41,50 +39,6 @@ GitHub haikubali password ya account kwa git. Tumia **Personal Access Token (PAT
    - **Username for 'https://github.com':** andika **Abdoul-shakoul123** (au username yako).
    - **Password for 'https://github.com':** **paste token** (si password ya GitHub).
 3. Enter – push inaendelea.
-
----
-
----
-
-## Custom domain — **optional, siku tutakaponunua domain**
-
-**Kwa sasa:** tovuti iko **https://abdoul-shakoul123.github.io/uhakika-group/** tu. **Usiweke www.uhakikagroup.com** — haifungi. Siku utakaponunua domain (jina kama uhakikagroup.com), fuata hapa chini.
-
-### 1. GitHub Pages
-
-- Repo → **Settings** → **Pages** → **Custom domain**
-- Andika jina la domain uliloununua (mfano www.jina-yako.com) → **Save**
-
-### 2. DNS (mahali uliponunua domain)
-
-Ingia kwenye paneli ya DNS (Namecheap, GoDaddy, Cloudflare, n.k.):
-
-| Type  | Name/Host | Value/Target                 |
-|-------|-----------|-----------------------------|
-| CNAME | `www`     | `abdoul-shakoul123.github.io` |
-
-- **Save** record.
-- **TTL:** 300 au Auto.
-
-### 3. Subiri na thibitisha
-
-- Subiri **dakika 5–30** (DNS inasambaa).
-- GitHub → **Settings** → **Pages** → bonyeza **"Check again"** chini ya Custom domain.
-- Ikiwa DNS iko sawa, hitilafu ya "ADNS check unsuccessful" itapotea.
-- Chagua **Enforce HTTPS** → **Save**.
-
-### 4. Jaribu
-
-- Fungua jina la domain uliloweka (siku ikiwa live) — tovuti inapaswa kuonekana.
-
-**Cloudflare:** Weka **Proxy** kwa CNAME ya www kuwa **DNS only** (grey cloud) mpaka GitHub ithibitishe.
-
-### 5. Troubleshooting "ADNS check unsuccessful"
-
-- **Domain lazima iwe registered** — domain inabidi kununuliwa kwenye registrar (Namecheap, GoDaddy, n.k.). Ikiwa haijasajiliwa, DNS haitafanya kazi.
-- **DNS inasetwa mahali sahihi** — kwenye paneli ya **DNS** ya yule anayemiliki domain. Ikiwa domain inatumia Cloudflare nameservers, set CNAME kwenye Cloudflare.
-- **Thibitisha DNS:** PowerShell: `nslookup -type=CNAME www.jina-yako.com` — inapaswa kuonyesha `abdoul-shakoul123.github.io`. Ikiwa inasema "Non-existent domain", domain haijasajiliwa au DNS haijaseti.
-- Subiri **dakika 10–60** baada ya kuongeza CNAME, kisha **Check again** kwenye GitHub.
 
 ---
 
