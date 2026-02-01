@@ -1,9 +1,11 @@
-USIWEKE www.uhakikagroup.com — haifungi. Tumia link hapa chini tu.
+USIANDIKI www.uhakikagroup.com — haifungi kabisa. Domain haipo.
 
-LINK RASMI (inafunguka)
+LINK RASMI (copy-paste hii tu)
 https://abdoul-shakoul123.github.io/uhakika-group/
 
-Fungua bila kuandika: double-click OPEN-SITE.url (au OPEN-SITE.html) kwenye folder ya mradi.
+Fungua bila kuandika:
+  • Double-click: 1-FUNGUA-TOVUTI.url  au  FUNGUA-TOVUTI.bat  (kwenye folder ya mradi)
+  • Au copy link hapa juu → paste kwenye address bar → Enter
 
 Repo: https://github.com/Abdoul-shakoul123/uhakika-group
 Actions: https://github.com/Abdoul-shakoul123/uhakika-group/actions
